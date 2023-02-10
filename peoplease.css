@@ -1,6 +1,41 @@
-.social{
-    text-align: right;
+.form{
+    margin-right: 20px;
+    border: 2px solid white;
+    background-color: #89C3EC;
 }
-.options{
-    text-align: center;
+.form-name{
+    width: 20%;
 }
+.form-email{
+    width: 20%;
+}
+.form-zip{
+    width: 10%;
+}
+.form-phone{
+    width: 15%;
+} 
+.form-interest{
+    width: 15%;
+}
+#contact{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    background: url(images/sprite-icon-social.png) -4px -4px no-repeat;
+    transition: none !important;
+    text-indent: -9999px;
+}
+.social a .fb{background-position: -4px -4px;}
+.social a .fb:hover{background-position: -4px -38px;}
+.social a .tw{background-position: -38px -4px;}
+.social a .tw:hover{background-position: -38px -38px;}
+.social a .in{background-position: -72px -4px;}
+.social a .in:hover{background-position: -72px -38px;}
+.social a .yt{background-position: -106px -4px;}
+.social a .yt:hover{background-position: -106px -38px;}

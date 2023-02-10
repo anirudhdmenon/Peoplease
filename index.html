@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="peoplease.css">
 </head>
 <body>
-    <!-- Nav Section -->
-    <nav class="navbar navbar-expand-lg" data-bs-theme="dark" style="background-color: #404e6e;">
+    <!-- Nav Section #404e6e;-->
+    <nav class="navbar navbar-expand-lg" data-bs-theme="dark" style="background-color: #476076;">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="images/peoplease.PNG" alt="LOGO">
@@ -24,7 +24,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="social">
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
             <a href="#"><i class="fa-brands fa-twitter"></i></a>
             <a href="#"><i class="fa-brands fa-linkedin"></i></a>
             <a href="#"><i class="fa-brands fa-youtube"></i></a>
@@ -315,11 +315,46 @@
       </div>
     </section>
     <!--Contact Section-->
-    <section id="contact" class="text-center mt-4">
+    <section id="contact" class="text-center mt-4" style="background-color: #61ABDF;">
       <h1>INTERESTED IN KNOWING MORE?</h1>
       <h3>SPEAK TO A REPRESENTATIVE OR REQUEST A QUOTE USING THE FORM BELOW</h3>
-      <p>Our business is a people-helping-people business. Let our specialists show you how we've helped other companies become more profitable. <br>Call us or contact us by requesting a quote using the form below.</p>
+      <p>Our business is a people-helping-people business. Let our specialists show you how we've helped other companies become more profitable. 
+        <br>Call us or contact us by requesting a quote using the form below.</p>
+      <form action="" class="d-flex justify-content-center">
+        <input class="form form-name p-2" type="text" placeholder="Full Name">
+        <input class="form form-email p-2" type="text" placeholder="Email">
+        <input class="form form-zip p-2" type="text" placeholder="Zip">
+        <input class="form form-phone p-2" type="text" placeholder="Phone #">
+        <select class="form p-2 form-interest" aria-label="Disabled select example">
+          <option value="" disabled selected hidden>Interested in: </option>
+          <option value="1">Payroll & Tax Administration</option>
+          <option value="2">Human Resources</option>
+          <option value="3">Safety & Risk Management</option>
+          <option value="3">Employee Benefits</option>
+        </select>
+        <button type="button" class="form form-btn btn btn-lg">&#x27A4;</button>
+      </form>
     </section>
     <!--Contact Section END-->
+    <!--Footer Section-->
+    <section id="footer" class="text-center pt-4" style="background-color: #476076; height: 300px;">
+      <div class="row">
+        <div class="mx-5 my-4 pt-2" style="width: 200px; height: 150px;">
+          <button class="btn btn-primary mb-2" type="button">CONTACT US</button>
+          <p>(843) 849-1164 <br>(800) 948-4453</p>
+          <div class="social" style="size: 1.5em; color: white;">
+            <a class="fb" href="https://www.facebook.com/PeopLease" target="_blank">Facebook</a>
+            <a class="tw" href="https://twitter.com/peoplease" target="_blank">Twitter</a>
+            <a class="in" href="https://www.linkedin.com/company/peoplease-corporation" target="_blank">LinkedIn</a>
+            <a class="yt" href="https://www.youtube.com/channel/UCFnnqDRqqvwYBJ_qpIl4zLQ" target="_blank">YouTube</a>
+          </div>
+        </div>
+        <div class="col-sm-6 mx-5 my-4" style="background-color: lawngreen; width: 250px; height: 100px;">
+        </div>
+        <div class="col-sm-6 mx-5 my-4" style="background-color: orange; width: 600px; height: 150px;">
+        </div>
+      </div>
+    </section>
+    <!--Footer Section END-->
 </body>
 </html>
